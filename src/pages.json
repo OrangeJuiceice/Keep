@@ -1,0 +1,134 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/edit/index for log",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/me/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},{
+			"path": "pages/k+/comment",
+			"style": {
+				"navigationBarTitleText": "我的动态"
+		    }
+		},{
+			"path": "pages/k+/advice",
+			"style": {
+				"navigationBarTitleText": "意见反馈"
+		    }
+	    },
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "健身"
+			}
+		},
+		{
+			"path": "pages/run/index",
+			"style": {
+				"navigationBarTitleText": "跑步"
+			}
+		},
+		{
+			"path": "pages/moments/index",
+			"style": {
+				"navigationBarTitleText": "动态"
+			}
+		},
+		{
+			"path": "pages/postMoment/index",
+			"style": {
+				"navigationBarTitleText": "编辑动态"
+			}
+		},
+		
+		{
+			"path":"pages/timer/timer0",
+			"style":{
+				"navigationBarTitleText":"平板支撑"
+			}
+		},
+		{
+			"path":"pages/timer/timer1",
+			"style":{
+				"navigationBarTitleText":"肱二头肌弯举"
+			}
+		},
+		{
+			"path":"pages/timer/timer2",
+			"style":{
+				"navigationBarTitleText":"哑铃肩部推举"
+			}
+		},
+		{
+			"path":"pages/timer/timer3",
+			"style":{
+				"navigationBarTitleText":"哑铃侧推举"
+			}
+		},
+		{
+			"path":"pages/edit/index",
+			"style":{
+				"navigationBarTitleText":"发布动态"
+			}
+		},
+		{
+			"path": "pages/music/index",
+			"style": {
+				"navigationBarTitleText": "音乐"
+			}
+		},
+		{
+			"path": "pages/blank/blank",
+			"style": {
+				"navigationBarTitleText": "空白页"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"list": [
+			{
+				"pagePath":"pages/index/index",
+				"iconPath":"static/images/Sport.png",
+				"selectedIconPath":"static/images/sportSelected.png",
+				"text":"健身"
+			}
+			,
+			{
+				"pagePath": "pages/run/index",
+				"iconPath":"static/images/run.png",
+				"selectedIconPath":"static/images/runSelected.png",
+				"text": "跑步"
+			},
+			{
+				"pagePath":"pages/moments/index",
+				"iconPath": "static/images/Moment.png",
+				"selectedIconPath":"static/images/momentSelected.png",
+				"text":"动态"
+			},
+			{
+				"pagePath": "pages/music/index",
+				"iconPath":"static/images/Music.png",
+				"selectedIconPath":"static/images/musicSelected.png",
+				"text": "音乐"
+			},
+			{
+				"pagePath": "pages/me/index",
+				"iconPath":"static/images/Me.png",
+				"selectedIconPath":"static/images/meSelected.png",
+				"text": "我的"
+			}
+		]
+	}
+}
